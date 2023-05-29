@@ -31,7 +31,7 @@ export default function Projetos() {
                             )
                         })}
                     </div>
-                    <button onClick={() => scrollToTop()} className="fixed bottom-8 right-8 flex justify-center items-center w-14 h-14 bg-[#1B98E0] text-white rounded-full shadow-2xl">
+                    <button aria-label="Subir página" onClick={() => scrollToTop()} className="fixed bottom-8 right-8 flex justify-center items-center w-14 h-14 bg-[#1B98E0] text-white rounded-full shadow-2xl">
                         <AiOutlineArrowUp size={35}/>
                     </button>
                 </div>
