@@ -2,7 +2,7 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Projeto from "../../components/Projeto";
 import Blob from "../../assets/Vector.svg";
-import Person from "../../assets/person.png"
+import Person from "../../assets/eu2.png"
 import dataProjetos from "../../data/projetos";
 import { AiFillLinkedin, AiFillGithub, AiFillHtml5, AiOutlineArrowUp } from "react-icons/ai"
 import { FaReact } from 'react-icons/fa'
@@ -37,8 +37,8 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="relative bg-white rounded-3xl p-8 flex flex-col items-center justify-evenly lg:flex-row">
-        <div className="absolute -top-7 lg:-top-10 p-3 flex text-4xl lg:text-5xl w-11/12 lg:w-2/5 justify-evenly items-center m-auto bg-[#183550] rounded-lg text-white ">
+        <div className="relative bg-white rounded-3xl p-8 flex flex-col items-center justify-evenly md:flex-row">
+        <div className="absolute -top-7 lg:-top-10 p-3 flex text-4xl lg:text-5xl w-11/12 lg:w-2/5 justify-evenly items-center m-auto bg-[#183550] rounded-lg text-white shadow-xl">
             <FaReact />
             <SiJavascript/>
             <AiFillHtml5/>
@@ -47,11 +47,11 @@ export default function Home() {
             <BsGit/>
             <FiFigma/>
         </div>
-          <div className="max-w-md flex flex-col gap-y-4 text-justify">
+          <div className="md:max-w-sm lg:max-w-md flex flex-col gap-y-4 text-justify">
             <div className="flex flex-col gap-y-4">
                 <span className="font-bold text-3xl mt-4 lg:mt-0">Sobre mim</span>
                 <p className="text-gray-500 font-medium">
-                Olá! Meu nome é José e sou um estudante dedicado com foco na área de front-end e apaixonado por tecnologia. Atualmente, estou cursando Desenvolvimento de Sistemas no SENAI Suíço-Brasileiro, aprimorando minhas habilidades em React JS e me aprofundando em front-end.{" "}
+                Olá! Meu nome é José, sou um estudante dedicado e apaixonado por tecnologia, com estudos focados na área de front-end. Atualmente, estou cursando Desenvolvimento de Sistemas no SENAI Suíço-Brasileiro, aprimorando minhas habilidades em React JS e me aprofundando em front-end.{" "}
                 Busco oportunidades para aplicar meus conhecimentos, enfrentar desafios e colaborar em projetos. Convido você a explorar meu portfólio para saber mais sobre minhas habilidades e projetos realizados. Estou aberto a oportunidades de estágio e colaboração, ansioso para fazer parte de equipes apaixonadas por tecnologia e desenvolvimento web.
                 </p>
             </div>
@@ -86,12 +86,13 @@ export default function Home() {
                 </button>
             </div>
           </div>
-          <img src={Person}/>
+
+           <img className="h-80 lg:h-96 w-auto mt-4 md:mt-0" src={Person}/>
         </div>
         <div className="flex flex-col justify-center items-center">
             <div>
                 <span className="font-semibold text-white text-3xl">Principais projetos</span>
-                <div className="bg-[#1B98E0] h-1 w-1/2 mb-4"></div>
+                <div className="bg-[#1B98E0] h-1 w-1/2 mb-2"></div>
             </div>
             <div className="flex flex-col items-center w-full lg:px-28">
                 <Projeto data={dataProjetos[0]}/>
