@@ -1,8 +1,8 @@
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Projeto from "../../components/Projeto";
-import Blob from "../../assets/Vector.svg";
-import Person from "../../assets/eu2.png"
+import Primeira from "../../assets/foto1.png";
+import Person from "../../assets/person.png"
 import dataProjetos from "../../data/projetos";
 import { AiFillLinkedin, AiFillGithub, AiFillHtml5, AiOutlineArrowUp } from "react-icons/ai"
 import { FaReact } from 'react-icons/fa'
@@ -22,7 +22,7 @@ export default function Home() {
       <div className="relative w-full min-h-screen  flex flex-col gap-y-6 bg-[#13293D]">
         <div className="flex flex-col lg:flex-row items-center justify-evenly p-8">
           <div>
-            <img src={Blob} alt="forma redonda aleatoria" />
+            <img src={Primeira} alt="forma redonda aleatoria" />
             {/* adicionar uma foto minha aqui depois */}
           </div>
           <div className="flex flex-col lg:max-w-md">
