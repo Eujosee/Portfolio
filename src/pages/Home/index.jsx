@@ -51,8 +51,8 @@ export default function Home() {
             <div className="flex flex-col gap-y-4">
                 <span className="font-bold text-3xl mt-4 lg:mt-0">Sobre mim</span>
                 <p className="text-gray-500 font-medium">
-                Olá! Meu nome é José, sou um estudante dedicado e apaixonado por tecnologia, com estudos focados na área de front-end. Atualmente, estou cursando Desenvolvimento de Sistemas no SENAI Suíço-Brasileiro, aprimorando minhas habilidades em React JS e me aprofundando em front-end.{" "}
-                Busco oportunidades para aplicar meus conhecimentos, enfrentar desafios e colaborar em projetos. Convido você a explorar meu portfólio para saber mais sobre minhas habilidades e projetos realizados. Estou aberto a oportunidades de estágio e colaboração, ansioso para fazer parte de equipes apaixonadas por tecnologia e desenvolvimento web.
+                Olá! Meu nome é José, sou formado em Desenvolvimento de Sistemas pelo SENAI Suíço-Brasileiro e atualmente estou cursando ADS na UNASP, com estudos focados na área de front-end e no desenvolvimento com a biblioteca React.
+Busco oportunidades para aplicar meus conhecimentos, enfrentar desafios e colaborar em projetos. Convido você a explorar meu portfólio para saber mais sobre minhas habilidades e projetos realizados. Estou aberto a oportunidades de estágio e colaboração.
                 </p>
             </div>
             <div className="flex gap-x-2 ">
